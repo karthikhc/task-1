@@ -513,6 +513,31 @@ body {
   }
 }
 
+
+/* @media only screen
+  and (min-device-width: 1024px)
+  and (max-height: 1366px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1:5) {
+    #info .line,
+    #info .about {
+      display: none;
+    }
+    /* line 437, D:/WEB/Projects/Slider/assets/scss/style.scss */
+    /* #info .slider-title-wrapper {
+      top: auto;
+      bottom: 2rem;
+      left: calc(70% + 11px);
+      transform-origin: 35% -100%;
+    } */
+    /* line 445, D:/WEB/Projects/Slider/assets/scss/style.scss */
+    /* #slides-aux {
+      top: 0;
+    }
+
+
+/* } */
+
 /* #RESPONSIVE - END*/
 
 /*# sourceMappingURL=../css/style.map */
@@ -546,23 +571,4 @@ body {
 
 }
 
-/* Check if the screen size is at least 600px */
- @media only screen and (min-width: 600px) {
- 	.lg {
-          		display: block;
-          }
-     }
-
-     /* check if the screen size is at least 400px */
-     @media only screen and (min-width: 400px) {
-     .md {
-         		display: block;
-          }
-      }
-
-     /* check if the screen size is at least 100px */
-     @media only screen and (min-width: 100px) {
-     .sm {
-         		display: block;
-         }
-    	}
+/
